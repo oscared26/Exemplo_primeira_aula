@@ -2,5 +2,5 @@ def somar_numeros(a,b):
 	return a+b
 a=int(input("Escreva o primeiro número= "))#aqui se recebe o primeiro número
 b=int(input("Escreva o segundo número= "))#aqui se recebe o segundo número
-c=somar_numeros(a,b)
+c=somar_numeros(a,b)#chamando a função que mostra o resultado
 print("O resutado da soma dos números {0} e {1} é = {2}".format(a,b,c))
